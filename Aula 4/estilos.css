@@ -1,0 +1,19 @@
+header{
+  background-color: rgb(196, 52, 52)  ;
+  text-align: center;
+  border: solid rgb(196, 52, 52) 1px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: #fdf6e1;
+}
+/*seletor de artigo*/
+.artigos{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(255, 243, 243);
+  background-image: url("img/bolo bonito.jpg");
+}
