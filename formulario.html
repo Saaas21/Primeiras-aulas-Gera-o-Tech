@@ -9,20 +9,27 @@
     form{
       background-color: rgb(233, 205, 169);
       padding: 20px;
-      width: 600px;
+      width: 20%;
       border-radius: 5px;
       text-align: center;
+      
+    }
+
+    h2{
+      font-family: Verdana;
     }
   </style>
 </head>
 <body>
   <form>
+    <h2>Selecione a modalidade do seu curso</h2>
+    <br> <br>
     <label for="nome">Nome:</label>
-    <input type="text" name="nome" id="nome" required>
+    <input type="text" name="nome" id="nome" required placeholder="Nome completo">
     <br><br>
 
     <label for="email">Email:</label>
-    <input type="text" name="email" id="email" required>
+    <input type="text" name="email" id="email" required placeholder="Seu E-mail">
     <br><br>
 
     <label for="text">Cargo de Tecnologia</label>
@@ -32,6 +39,7 @@
       <option value="suporte">Suporte</option>
     </select>
     <br><br>
+
 
     <label for="genero">Gênero:</label>
     
@@ -50,11 +58,18 @@
     <label for="unidade">Unidade de Interesse:</label>
     <br><br>
     <label for="fortaleza">Fortaleza</label>
-    <input type="checkbox" id="fortaleza" name="">
+    <input type="checkbox" id="fortaleza" name="unidade" value="fortaleza">
+    <label for="eusebio">Eusébio</label>
+    <input type="checkbox" id="eusebio" name="unidade" value="eusebio">
+    <label for="caucaia">Caucaia</label>
+    <input type="checkbox" id="caucaia" name="unidade">
     <br><br>
-    <label for="pyton">Pyton</label>
-    <input type="checkbox" id="linguagem">
-    <br><br>
+
+    <div>
+      <input type="submit" value="Enviar">
+    </div>
+
   </form>
+
 </body>
 </html>
