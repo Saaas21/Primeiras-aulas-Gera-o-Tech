@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medalhas</title>
+
+  <style>
+    tr th, td{
+      border: solid 1px black;
+    }
+
+    table{
+      border-collapse: collapse;
+    }
+
+
+  </style>
+
+</head>
+<body>
+  <table>
+    <caption>Tabela de medalhas dos jogos olimpicos</caption>
+    <colgroup>
+      <col style="background-color: rgb(255, 255, 255);">
+      <col style="width: 200px; background-color: rgb(255, 255, 255);">
+      <col style="background-color: rgb(255, 254, 233);">
+      <col style="background-color: beige;">
+      <col style="background-color: rgb(116, 100, 79);">
+      <col style="background-color: rgb(214, 204, 111);">
+    </colgroup>
+  <tr>
+    <th colspan="2">Equipe</th>
+    <td>Ouro</td>
+    <td>Prata</td>
+    <td>Bronze</td>
+    <td>Total</td>
+  </tr>
+
+  <tr>
+    <td><img src="noruega.jpg"></td>
+    <td>Noruega</td>
+    <td>16</td>
+    <td>8</td>
+    <td>13</td>
+    <td>37</td>
+  </tr>
+
+  <tr>
+    <td><img src="canada.jpg"></td>
+    <td>Canadá</td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+  </tr>
+
+  <tr>
+    <td><img src="EUA.jpg"></td>
+    <td>EUA</td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+  </tr>
+
+  <tr>
+    <td><img src="alem.jpg"></td>
+    <td>Alemanha</td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+  </tr>
+
+  </table>
+
+  <hr>
+  
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" required>
+    <br><br>
+
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" required>
+    <br><br>
+
+    <label for="genero">Idade:</label>
+    <input type="number" name="idade" id="idade" min="0" max="100" required>
+    <br><br>
+
+    <label for="genero">Gênero:</label>
+    
+    <br><br>
+
+    <label for="genero">Feminino:</label>
+    <input type="radio" name="genero" value="feminino" id="feminino" required>
+    <br><br>
+
+    <label for="genero">Masculino:</label>
+    <input type="radio" name="genero" value="masculino" required>
+    <br><br>
+
+    <label for="genero">Outro:</label>
+    <input type="radio" name="genero" id="outro" value="outro">
+    <br><br>
+
+    <label for="linguagem">Selecione suas linguagens de programação:</label>
+    <br><br>
+    <label for="js">JavaScript</label>
+    <input type="checkbox" id="pyton" name="linguagem">
+    <br><br>
+    <label for="pyton">Pyton</label>
+    <input type="checkbox" id="linguagem">
+    <br><br>
+    
+    <label for="texto">Digite o seu comentário</label><br>
+    <textarea style="resize: none;" id="texto" rows="5" cols="50"></textarea>
+    <br><br>
+    <label for="text">Cidade pretendida</label>
+    <select id="cidades" name="cidade">
+      <option value="">Selecione uma cidade</option>
+      <option value="Fortaleza">Fortaleza</option>
+      <option value="Natal">Natal</option>
+      <option value="joaopessoa">João Pessoa</option>
+    </select>
+    <div>
+      <br>
+      <input type="submit" value="Enviar">
+    </div>
+
+  </form>
+
+</body>
+</html>

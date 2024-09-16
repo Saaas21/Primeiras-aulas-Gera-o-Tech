@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 5</title>
+</head>
+<style>
+  tr th, td{
+    border: solid 1px black
+  }
+  table{
+    border-collapse: collapse;
+  }
+</style>
+<body>
+  <table>
+    <caption>Nomes e Idade</caption>
+    <colgroup>
+    <col style="background-color: antiquewhite;">
+    </colgroup>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th>Cidade</th>
+    </tr>
+    <!--Primeira linha-->
+    <tr>
+      <th rowspan="2">Maria</th>
+      <th>Idade:26 </th>
+      <td rowspan="2"> Fortaleza</td>
+    </tr>
+
+    <!--Segunda linha da maria-->
+      <tr>
+        <td>Altura: 1,65</td>
+      </tr>
+    <tr>
+      <td>João</td>
+      <td>Idade: 26</td>
+      <td>Fortaleza</td>
+    </tr>
+  </table>
+
+</body>
+</html>

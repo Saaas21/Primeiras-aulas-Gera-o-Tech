@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+
+  <style>
+    form{
+      background-color: rgb(233, 205, 169);
+      padding: 20px;
+      width: 600px;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" required>
+    <br><br>
+
+    <label for="text">Cargo de Tecnologia</label>
+    <select id="cidades" name="cidade">
+      <option value="">Pessoa Desenvolvedora</option>
+      <option value="desenvolvedor">Desenvolvedor</option>
+      <option value="suporte">Suporte</option>
+    </select>
+    <br><br>
+
+    <label for="genero">Gênero:</label>
+    
+    <br>
+
+    <label for="genero">Feminino:</label>
+    <input type="radio" name="genero" value="feminino" id="feminino" required>
+
+    <label for="genero">Masculino:</label>
+    <input type="radio" name="genero" value="masculino" required>
+
+    <label for="genero">Outro:</label>
+    <input type="radio" name="genero" id="outro" value="outro">
+    <br><br>
+
+    <label for="unidade">Unidade de Interesse:</label>
+    <br><br>
+    <label for="fortaleza">Fortaleza</label>
+    <input type="checkbox" id="fortaleza" name="">
+    <br><br>
+    <label for="pyton">Pyton</label>
+    <input type="checkbox" id="linguagem">
+    <br><br>
+  </form>
+</body>
+</html>
