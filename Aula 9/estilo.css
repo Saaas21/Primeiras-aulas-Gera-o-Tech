@@ -1,0 +1,32 @@
+header{
+  background-image: url("capa.jpg");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin: 0;
+  color: aliceblue;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 100px;
+}
+
+nav a{
+  text-decoration: none;
+  color: aliceblue;
+  top: 0;
+  right: 0;
+  padding: 10;
+}
+.links{
+display: flex;
+
+}
